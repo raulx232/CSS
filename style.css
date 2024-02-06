@@ -1,0 +1,37 @@
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #f4f4f4;
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 0;
+}
+
+.song {
+    margin: 20px;
+}
+
+.lyrics {
+    font-family: 'Courier New', monospace;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.lyrics:nth-child(odd) {
+    color: #333;
+}
+
+.lyrics:nth-child(even) {
+    color: #999;
+    font-style: italic;
+}
+
+.font1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
